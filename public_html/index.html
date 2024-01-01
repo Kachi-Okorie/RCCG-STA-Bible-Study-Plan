@@ -1,0 +1,530 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+    integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+    crossorigin="anonymous"></script>
+
+  <title>RCCG STA Bible Study Plan</title>
+
+  <!--This style section is added to ensure the items in the navbar fills the navbar-->
+  <style>
+    .navbar-nav {
+      display: table;
+      width: 100%;
+      margin: 0;
+    }
+
+    .navbar-nav li {
+      display: table-cell;
+      text-align: center;
+    }
+
+    h4 {
+      color: black;
+      margin: auto;
+    }
+
+    header {
+      color: white;
+    }
+
+    /* Popup container - can be anything you want */
+    .popup {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    /* The actual popup */
+    .popup .popuptext {
+      visibility: hidden;
+      width: 160px;
+      background-color: #555;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 8px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -80px;
+    }
+
+    /* Popup arrow */
+    .popup .popuptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: #555 transparent transparent transparent;
+    }
+
+    /* Toggle this class - hide and show the popup */
+    .popup .show {
+      visibility: visible;
+      -webkit-animation: fadeIn 1s;
+      animation: fadeIn 1s;
+    }
+
+    /* Add animation (fade in the popup) */
+    @-webkit-keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    /* .box {
+      display: none;
+    }
+
+    .box:target {
+      display: block;
+    } */
+  </style>
+</head>
+
+<body>
+
+  <!--Beginning of nav section-->
+  <!--This section creates 5 menu options, Home keeps the user in the page, while the rest navigates users to sections
+  in the page. The Partner menu has a dropdown list that shows the partners and takes users to the partners website-->
+  <nav class="navbar navbar-expand-md bg-light navbar-dark">
+    <h4>RCCG Strong Tower Assembly, Melbourne</h4>
+  </nav>
+  <!--End of nav section-->
+
+  <!--Beginning of header section-->
+  <header class="bg-success p-1">
+    <div class="container">
+      <h1>Bible Study Plan</h1>
+      <p>In line with our 2024 theme, "That I may know Him," it is crucial that we derive our understanding of God from
+        His scripture. Therefore, we have integrated a Bible study schedule designed to guide us through the entire
+        Bible, from Genesis to Revelation, throughout the year 2024.</p>
+    </div>
+  </header>
+  <!--End of header section-->
+
+  <!--Beginning of carousel section-->
+  <!--This feature helps to give users an overview of the services that are provided by The Wellness Forest-->
+  <div id="newCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#newCarousel" data-bs-slide-to="2"></button>
+    </div>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="5000">
+        <img src="biblestudy.jpg" alt="philippians-3-10" height="400" class="d-block w-100">
+        <!-- <div class="carousel-caption">
+          <h3>Health Coaching</h3>
+          <p>We are always here for you.
+          </p>
+        </div> -->
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="image.jpg" alt="Bible passage" height="400" class="d-block w-100">
+        <!-- <div class="carousel-caption">
+          <h3>Fitness Gang</h3>
+          <p>Stay in shape.
+          </p>
+        </div> -->
+      </div>
+      <div class="carousel-item" data-bs-interval="5000">
+        <img src="that-i-may-know-him.jpg" alt="philippians-3-10" height="400" class="d-block w-100">
+        <!-- <div class="carousel-caption">
+          <h3>Wellness Groups</h3>
+          <p>Come and feel at home.
+          </p>
+        </div> -->
+      </div>
+    </div>
+    <!-- Left and right controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#newCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visible ">Previous</span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#newCarousel" data-bs-slide="next">
+      <span class="visible">Next</span>
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  </div>
+  </div>
+  <!--End of carousel section-->
+
+  <!--Beginning of Welcome section-->
+  <br>
+  <div class="container">
+    <div class="container">
+      <h2 id="bottom">Search The Scriptures</h2>
+      <p>Select the month of choice and click on the dates to view the bible passages.</p>
+      <div id="accordion">
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-bs-toggle="collapse" href="#collapseOne">
+              January
+            </a>
+          </div>
+          <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+            <div class="card-body" style="overflow-x:auto;">
+
+              <table class="table table-bordered table-hover table-light">
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <!-- <td><a href="#one">01</a></td> -->
+                  <td>
+                    <div class="popup" onclick="myFunction()">01
+                      <span class="popuptext" id="myPopup">
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV"
+                          target="_blank">Genesis 1,</a>
+
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis+2&version=NIV"
+                          target="_blank">Genesis 2</a> <br>
+                        <a href="https://www.biblegateway.com/passage/?search=Luke+1&version=NIV" target="_blank">Luke
+                          1</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction2()">02
+                      <span class="popuptext" id="myPopup2"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+3+-+5&version=NIV"
+                          target="_blank">Genesis 3-5</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+2&version=NIV"
+                          target="_blank">Luke 2</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction3()">03
+                      <span class="popuptext" id="myPopup3"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+6-8&version=NIV"
+                          target="_blank">Genesis 6-8</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+3&version=NIV"
+                          target="_blank">Luke 3</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction4()">04
+                      <span class="popuptext" id="myPopup4"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+9-11&version=NIV"
+                          target="_blank">Genesis 9-11</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+4&version=NIV"
+                          target="_blank">Luke 4</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction5()">05
+                      <span class="popuptext" id="myPopup5"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+12-14&version=NIV"
+                          target="_blank">Genesis
+                          12-14</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+5&version=NIV"
+                          target="_blank">Luke
+                          5</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction6()">06
+                      <span class="popuptext" id="myPopup6"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+15-17&version=NIV"
+                          target="_blank">Genesis
+                          15-17</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+6&version=NIV"
+                          target="_blank">Luke
+                          6</a></span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>07</td>
+                  <td>08</td>
+                  <td>09</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+              </table>
+
+            </div>
+            <!-- <div id="one" class="box">box one</div> -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-bs-toggle="collapse" href="#collapseTwo">
+              February
+            </a>
+          </div>
+          <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body" style="overflow-x:auto;">
+
+              <table class="table table-bordered table-hover table-light">
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <!-- <td><a href="#one">01</a></td> -->
+                  <td>
+                    <div class="popup" onclick="myFunction()">01
+                      <span class="popuptext" id="myPopup">
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV">Genesis 1,</a>
+
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis+2&version=NIV">Genesis 2</a> <br>
+                        <a href="https://www.biblegateway.com/passage/?search=Luke+1&version=NIV">Luke 1</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction2()">02
+                      <span class="popuptext" id="myPopup2"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+3+-+5&version=NIV">Genesis 3-5</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+2&version=NIV">Luke 2</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction3()">03
+                      <span class="popuptext" id="myPopup3"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+6-8&version=NIV">Genesis 6-8</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+3&version=NIV">Luke 3</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction4()">04
+                      <span class="popuptext" id="myPopup4"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+9-11&version=NIV">Genesis 9-11</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+4&version=NIV">Luke 4</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction5()">05
+                      <span class="popuptext" id="myPopup5"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+12-14&version=NIV">Genesis
+                          12-14</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+5&version=NIV">Luke
+                          5</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction6()">06
+                      <span class="popuptext" id="myPopup6"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+15-17&version=NIV">Genesis
+                          15-17</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+6&version=NIV">Luke
+                          6</a></span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>07</td>
+                  <td>08</td>
+                  <td>09</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+              </table>
+
+            </div>
+            <!-- <div id="one" class="box">box one</div> -->
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header">
+            <a class="card-link" data-bs-toggle="collapse" href="#collapseThree">
+              March
+            </a>
+          </div>
+          <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+            <div class="card-body" style="overflow-x:auto;">
+
+              <table class="table table-bordered table-hover table-light">
+                <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tues</th>
+                  <th>Wed</th>
+                  <th>Thurs</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+                </tr>
+                <tr>
+                  <td> </td>
+                  <!-- <td><a href="#one">01</a></td> -->
+                  <td>
+                    <div class="popup" onclick="myFunction()">01
+                      <span class="popuptext" id="myPopup">
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis%201&version=NIV">Genesis 1,</a>
+
+                        <a href="https://www.biblegateway.com/passage/?search=Genesis+2&version=NIV">Genesis 2</a> <br>
+                        <a href="https://www.biblegateway.com/passage/?search=Luke+1&version=NIV">Luke 1</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction2()">02
+                      <span class="popuptext" id="myPopup2"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+3+-+5&version=NIV">Genesis 3-5</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+2&version=NIV">Luke 2</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction3()">03
+                      <span class="popuptext" id="myPopup3"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+6-8&version=NIV">Genesis 6-8</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+3&version=NIV">Luke 3</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction4()">04
+                      <span class="popuptext" id="myPopup4"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+9-11&version=NIV">Genesis 9-11</a>
+                        <br> <a href="https://www.biblegateway.com/passage/?search=Luke+4&version=NIV">Luke 4</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction5()">05
+                      <span class="popuptext" id="myPopup5"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+12-14&version=NIV">Genesis
+                          12-14</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+5&version=NIV">Luke
+                          5</a></span>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="popup" onclick="myFunction6()">06
+                      <span class="popuptext" id="myPopup6"><a
+                          href="https://www.biblegateway.com/passage/?search=Genesis+15-17&version=NIV">Genesis
+                          15-17</a> <br> <a href="https://www.biblegateway.com/passage/?search=Luke+6&version=NIV">Luke
+                          6</a></span>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td>07</td>
+                  <td>08</td>
+                  <td>09</td>
+                  <td>10</td>
+                  <td>11</td>
+                  <td>12</td>
+                  <td>13</td>
+                </tr>
+                <tr>
+                  <td>14</td>
+                  <td>15</td>
+                  <td>16</td>
+                  <td>17</td>
+                  <td>18</td>
+                  <td>19</td>
+                  <td>20</td>
+                </tr>
+              </table>
+
+            </div>
+            <!-- <div id="one" class="box">box one</div> -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!--End of News Appearance section-->
+</div>
+    <!--Beginning of footer section-->
+    <footer class="bg-success text-center text-white p-2">
+      <p>Copyright &copy;RCCG Strong Tower Assembly, Melbourne. 2024</p>
+    </footer>
+    <!--End of footer section-->
+
+    <script>
+      // When the user clicks on div, open the popup
+      function myFunction() {
+        var popup = document.getElementById("myPopup");
+        popup.classList.toggle("show");
+      }
+      function myFunction2() {
+        var popup = document.getElementById("myPopup2");
+        popup.classList.toggle("show");
+      }
+      function myFunction3() {
+        var popup = document.getElementById("myPopup3");
+        popup.classList.toggle("show");
+      }
+      function myFunction4() {
+        var popup = document.getElementById("myPopup4");
+        popup.classList.toggle("show");
+      }
+      function myFunction5() {
+        var popup = document.getElementById("myPopup5");
+        popup.classList.toggle("show");
+      }
+      function myFunction6() {
+        var popup = document.getElementById("myPopup6");
+        popup.classList.toggle("show");
+      }
+    </script>
+</body>
+
+</html>
