@@ -83,3 +83,43 @@ function myFunction() {
     var popup = document.getElementById("myPopup21");
     popup.classList.toggle("show");
   }
+  function myFunction22() {
+    var popup = document.getElementById("myPopup22");
+    popup.classList.toggle("show");
+  }
+  function myFunction23() {
+    var popup = document.getElementById("myPopup23");
+    popup.classList.toggle("show");
+  }
+  function myFunction24() {
+    var popup = document.getElementById("myPopup24");
+    popup.classList.toggle("show");
+  }
+  function myFunction25() {
+    var popup = document.getElementById("myPopup25");
+    popup.classList.toggle("show");
+  }
+  function myFunction26() {
+    var popup = document.getElementById("myPopup26");
+    popup.classList.toggle("show");
+  }
+  function myFunction27() {
+    var popup = document.getElementById("myPopup27");
+    popup.classList.toggle("show");
+  }
+  function myFunction28() {
+    var popup = document.getElementById("myPopup28");
+    popup.classList.toggle("show");
+  }
+  function myFunction29() {
+    var popup = document.getElementById("myPopup29");
+    popup.classList.toggle("show");
+  }
+  function myFunction30() {
+    var popup = document.getElementById("myPopup30");
+    popup.classList.toggle("show");
+  }
+  function myFunction31() {
+    var popup = document.getElementById("myPopup31");
+    popup.classList.toggle("show");
+  }
